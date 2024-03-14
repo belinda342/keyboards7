@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="keycaps.css">
+    <script src="js.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keycaps</title>
+</head>
+<body>
+
+    
+   
+    <div class="mySidebar" id="sidebar">
+        
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="keycaps.html">keycaps</a></li>
+            <li><a href="switches.html">switches</a></li>
+            <li><a href="plate.html">plate</a></li>
+            <li><a href="pcb.html">pcb</a></li>
+            <li><a href="case.html">case</a></li>
+            <li><a href="layout.html">sizes and layouts</a></li>
+            <li><a href="resources.html">where to buy</a></li>
+        </ul>
+    </div>
+
+        <span id="menu" onclick="openNav()">menu</span>
+<div class="main">
+    <h3 id="h3">Keycaps</h3>
+    <p1 id="p2">These can impact the typing feel and the aesthetic of the keyboard. They come in different shapes and heights, which should be considered before buying. The two keycap profiles are uniform and sculpted.
+    </p1>
+    <br>
+    <br>
+    <p1 id="p1">Uniform means each row is the same shape and height, which means the keys can be placed anywhere on the keyboard.
+        <br>
+        <br>
+        <p1 id="p1">Sculpted means each row has a different shape and height, which means they must be placed in the spot they were designed to fit in. These keycaps can’t be used on a different keyboard layout than they were made for. For example, if a set was designed for the QWERTY keyboard, it wouldn’t be able to be rearranged for a DVORAK keyboard.
+        </p1></p1>
+        <br>
+        <br>
+        <p1 id="p1">The height of keycaps can also affect typing comfort. There are low-profile keycaps, middle-profile keycaps, and high-profile keycaps. The height can vary across the same set if the keycaps are sculpted. Which height suits you depends on your preferences and typing habits, so it's best to try them out before making a decision. 
+        </p1>
+        
+        <p1 id="p4">click on a profile to see how it looks
+        </p1>
+    
+    <br>
+    <br>
+    <br>
+        <button class="button" onclick="toggleVisibility('image5'); setActiveButton(this);">SA</button>
+        <button class="button" onclick="toggleVisibility('image4'); setActiveButton(this);">OEM</button>
+        <button class="button" onclick="toggleVisibility('image3'); setActiveButton(this);">Cherry</button> 
+        <button class="button" onclick="toggleVisibility('image2'); setActiveButton(this);">XDA</button>
+        <button class="button" onclick="toggleVisibility('image1'); setActiveButton(this);">DSA</button>
+
+        <div class="image-container">
+            <img id="image1" src="images/DSA.png" alt="Image 1" style="visibility: hidden;">
+            <img id="image2" src="images/XDA.png" alt="Image 2" style="visibility: hidden;">
+            <img id="image3" src="images/Cherry.png" alt="Image 3" style="visibility: hidden;">
+            <img id="image4" src="images/OEM.png" alt="Image 4" style="visibility: hidden;">
+            <img id="image5" src="images/SA.png" alt="Image 5" style="visibility: hidden;">
+    
+           
+            
+        </div>
+    <div class="description-container" style="visibility: hidden;">
+    <p id="image5-description" class="description" style="visibility: hidden;">SA (Spherical All): high-profile, sculpted</p>
+    <p id="image4-description" class="description" style="visibility: hidden;">OEM (Original Equipment Manufacturer): middle-profile, sculpted</p>
+    <p id="image3-description" class="description" style="visibility: hidden;">Cherry: middle-profile, sculpted</p>
+    <p id="image2-description" class="description" style="visibility: hidden;">XDA: low-profile, uniform</p>
+    <p id="image1-description" class="description" style="visibility: hidden;">DSA (Din Standard Height): low-profile, uniform</p>
+    
+    </div>
+      
+        <p2 id="p1">For more detail about keycaps, visit this <a href="https://goblintechkeys.com/blogs/news/comparison-of-different-keycap-profile-sa-dsa-oem-cherry-and-xda">site</a> and this <a href="https://www.daskeyboard.com/blog/types-of-keycap-profiles/ ">site
+            </a>
+        </p2>
+
+      
+</div>
+</body>
+</html>

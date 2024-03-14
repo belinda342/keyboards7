@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Fira Code light;
+    src: url(font/FiraCode-Light.ttf);
+}
+
+@font-face {
+    font-family: Fira Code regular;
+    src: url(font/FiraCode-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fira Code medium;
+    src: url(font/FiraCode-Medium.ttf);
+}
+
+@font-face {
+    font-family: Fira Code semibold;
+    src: url(font/FiraCode-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Fira Code bold;
+    src: url(font/FiraCode-Bold.ttf);
+}
+
+body {
+    background-color: #eeece3;
+    margin: 1vw 1.5vh;
+    padding: 4vw 7vh;
+    padding-top: 1.5vh;
+    width: auto;
+    
+    
+}
+  
+  /*keycaps*/
+  #h3 {
+      font-family: Fira Code light;
+      
+    }
+  
+  /*paragraph*/
+  #p1 {
+      font-family: Fira Code regular;
+    
+  }
+  
+  /*boldparagraph*/
+  #p2 {
+      font-family: Fira Code medium;
+   
+  }
+  
+/*instructions*/
+    #p4 {
+        font-family: Fira Code regular;
+        color:#ca7d74;
+        font-size:medium;
+        
+     
+    }
+
+   
+/*keycapimages*/
+.image-container {
+    position: relative;
+    margin-left: -0.5vw;
+    margin-top: 6vh;
+    width: 87vw; 
+    height: 26vh; 
+}
+
+.image-container img {
+    position: absolute;
+    object-fit: cover;
+    margin-left: -1.5vw;
+    width: 75vw;
+    height: auto;
+    
+}
+
+.description-container {
+    position: relative;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    width: 87vw;
+    height: 5.4vh;
+    background-color: #d4d0c1; 
+   
+   
+   
+}
+
+.description {
+position: absolute;
+margin-top: 1.5vh;
+margin-left: 1.5vw;
+margin-right: 1.5vw;
+font-family: Fira Code regular;
+
+
+}
+/*keycaptoggle*/
+.button {
+    font-family: Fira Code regular;
+    width: 75px;
+    height: 40px;
+    background-color: #d4d0c1; 
+    border: none;
+    color: #5e544a;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+    margin: 10px 1px;
+    margin-bottom: 0.5px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #99947e;
+    color: #eeece3;
+  }
+
+ /*sidebar*/
+.mySidebar {
+    width: 0%;
+    background-color: #d4d0c1;
+    height: 100%; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 37px;
+    transition: 0.5s;
+    z-index: 1;
+    overflow: hidden;
+   
+}
+
+
+.mySidebar ul {
+    list-style-type: none;
+    padding-inline-start: 9%;
+   
+}
+
+.mySidebar ul li {
+    padding: 15px;
+    
+    
+    
+}
+.mySidebar ul li a {
+    
+    white-space: nowrap;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: Fira Code regular;
+    font-size: medium;
+    color: #5e544a;
+    text-decoration: none;
+    
+    
+}
+
+.mySidebar ul li a:hover {
+    color: #ca7d74;
+}
+  
+
+
+#menu {
+    font-family: Fira Code medium;
+    color: #99947e;
+    text-decoration: none;
+    margin-left: 100%;
+  
+
+}
+
+#menu:hover {
+    color: #5e544a;
+}
+
+.mySidebar .closebtn {
+    position: absolute; 
+    color: #5e544a;
+    font-family: Fira Code light;
+    top: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 32px;
+  }
+
+  .mySidebar .closebtn:hover {
+    color:#ca7d74;
+  }
+
+  .main {
+    margin-top: -2%;
+}
+

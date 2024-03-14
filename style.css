@@ -1,0 +1,197 @@
+@font-face {
+    font-family: Fira Code light;
+    src: url(font/FiraCode-Light.ttf);
+}
+
+@font-face {
+    font-family: Fira Code regular;
+    src: url(font/FiraCode-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fira Code medium;
+    src: url(font/FiraCode-Medium.ttf);
+}
+
+@font-face {
+    font-family: Fira Code semibold;
+    src: url(font/FiraCode-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Fira Code bold;
+    src: url(font/FiraCode-Bold.ttf);
+}
+
+/*subpages*/
+.subpages-list {
+    list-style-type: none;
+    
+  }
+
+  .subpages-list a {
+    text-decoration: none; 
+    font-size: small;
+    color: #000000;
+  }
+
+  .subpages-list a:hover {
+    color: #ca7d74;
+  }
+
+body {
+    background-color: #eeece3;
+    margin: 1vw 1.5vh;
+    padding: 4vw 7vh;
+    padding-left: 2vw;
+    overflow-x: hidden;
+    width: 93.2vw;
+    
+}
+
+
+/*a keyboard by parts*/
+#h1 {
+  font-family: Fira Code regular;
+  margin-left: 2.7vw;
+  margin-top: -1.5vh;
+  
+  color: #000000;
+  
+  
+}
+
+
+  #h4 {
+    font-family: Fira Code light;
+
+    
+  }
+
+  #h4:hover {
+    color: #7fa480;
+  }
+
+/*description*/
+#p1 {
+    font-family: Fira Code regular;
+    margin-top: -1.5vh;
+    margin-left: 2.7vw;
+
+}
+/*instructions*/
+#p2 {
+    font-family: Fira Code regular;
+    color:#ca7d74;
+    margin-top: -1.5vh;
+    margin-left: 2.7vw;
+ 
+}
+
+/*moreinfo*/
+#p3 {
+    font-family: Fira Code semibold;
+    color: #000000;
+    width: 20vw;
+    margin-top: 40vh;
+    margin-left: 40px;
+    font-size: medium;
+}
+
+
+/*png cropped edges*/
+.cropped-image-clip-polygon {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(72% 100%, 100% 70%, 100% 50%, 29% 0%, 23% 8%, 1% 28%, 0% 31%, 0% 38%);
+    transition: transform 0.5s ease;
+}
+
+.cropped-image-clip-polygon:hover {
+    transform: scale(1.05); 
+}
+
+.cropped-image-clip-polygon1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(31% 0, 100% 60%, 100% 64%, 72.5% 100%, 0 27%);
+    transition: transform 0.5s ease;
+}
+
+
+.cropped-image-clip-polygon1:hover {
+    transform: scale(1.05); 
+}
+
+.cropped-image-clip-polygon2 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(34% 0, 100% 60%, 100% 64%, 72.5% 100%, 0 29%,0 27%);
+    transition: transform 0.5s ease;
+}
+
+.cropped-image-clip-polygon2:hover {
+    transform: scale(1.05); 
+}
+
+.cropped-image-clip-polygon3 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(75% 100%, 100% 74%, 100% 50%, 31% 0%, 23% 5%, 1% 28%, 0% 31%, 0% 38%);
+    transition: transform 0.5s ease;
+}
+
+
+.cropped-image-clip-polygon3:hover {
+    transform: scale(1.05); 
+}
+
+.cropped-image-clip-polygon4 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(70% 100%, 100% 68%, 100% 58%, 29% 0%, 23% 10%, 1% 30%, 0% 31%, 0% 41%);
+    transition: transform 0.5s ease;
+}
+
+.cropped-image-clip-polygon4:hover {
+    transform: scale(1.05); 
+}
+
+/*png container*/
+/*.image-container {
+    display:block;
+    position: relative;
+    margin-top: -85vh;
+    float:left;
+    width: 64vw;
+    height: 85vh;
+    margin-left: 30vw;
+}*/
+.image-container {
+    position: absolute;
+    float:right;
+    width: 64vw;
+    height: 85vh;
+   /* left: 30vw;
+    top: 70px;*/
+    transform: translate(47%,-100%);
+}
+
+/*undo the overflow hidden after certain width*/
+@media screen and (max-width: 900px) {
+    body {
+        overflow-y: scroll;
+        max-height: 100vh;
+    }
+}
+
+/*@media screen and (max-width: 750px) {
+    .image-container {
+        margin-top: -120vh;
+    }
+}*/

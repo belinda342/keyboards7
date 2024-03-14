@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="page.css">
+    <script src="js.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switches</title>
+</head>
+<body>
+    <div class="mySidebar" id="sidebar">
+        
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="keycaps.html">keycaps</a></li>
+            <li><a href="switches.html">switches</a></li>
+            <li><a href="plate.html">plate</a></li>
+            <li><a href="pcb.html">pcb</a></li>
+            <li><a href="case.html">case</a></li>
+            <li><a href="layout.html">sizes and layouts</a></li>
+            <li><a href="resources.html">where to buy</a></li>
+        </ul>
+    </div>
+
+        <span id="menu" onclick="openNav()">menu</span>
+
+        <div class="main">
+           
+    <h3 id="h3">Switches</h3>
+    <p1 id="p2">These are one of the main components responsible for the typing experience, and are usually coded by colour. There are three types of switches; linear, tactile, and clicky.
+    </p1>
+    <p1 id="p4">click on a switch to hear what it sounds like
+    </p1>
+
+   <div class="container">
+<div class="image-container">
+    <img src="images/red1.png" id="firstImage" onmousedown="changeImage()" onmouseup="restoreImage()">
+    
+   
+  </div>
+<div class="text">
+    <h3 id="h3">Linear</h3>
+    <p1 id="p1">These switches are usually red, and have no tactile bump, which makes for a smooth and consistent downward press. They’re also quieter than the other two options. These are ideal for gaming because it has no bump which can improve speed. 
+    </p1>
+</div>
+</div>
+
+<div class="container">
+<div class="image-container">
+    <img src="images/brown1.png" id="secondImage" onmousedown="changeImage2()" onmouseup="restoreImage2()">
+</div>
+<div class="text1">
+    <h3 id="h3">Tactile</h3>
+    <p1 id="p1">These switches are usually brown, and have a tactile bump that requires slightly more force to overcome when pressing down. Many people find this bump to be satisfying. They’re good for most things, and might be preferred by typists over the linear switch. 
+    </p1>
+</div>
+  </div>
+
+  <div class="container">
+    <div class="image-container"> 
+        <img src="images/blue1.png" id="thirdImage" onmousedown="changeImage3()" onmouseup="restoreImage3()">
+</div>
+
+<div class="text2">
+    <h3 id="h3">Clicky</h3>
+    <p1 id="p1">These switches usually blue, and are the loudest of the three, hence the name. It has a tactile bump and makes a click sound on every press. For reference, this is the type that most school computers use. It feels the same as a tactile switch, but louder. Some people like the click while others don’t, and the sound is the main reason to choose this over tactile. It all depends on personal preference, but it’s best not to get clicky switches for use in the office. It’s worth noting that the click can sometimes be audible through discord calls, so keep it in mind if you plan on gaming with friends. 
+    </p1>
+</div>
+    </div>
+<br>
+<br>
+<div class="closing">
+    <p1 id="p1">Before buying switches, it’s best to get a switch tester to try them out. 
+    </p1>
+<br>
+<br>
+
+    <p2 id="p2">For more detail about switches, visit this <a href="https://www.corsair.com/us/en/explorer/gamer/keyboards/key-switch-types-101/#:~:text=THERE%20ARE%20THREE%20MAIN%20TYPES%20OF%20KEY%20SWITCHES&text=Instead%2C%20today%20we'll%20talk,%2C%20we'll%20start%20there. 
+        https://www.xda-developers.com/mechanical-keyboards-guide/ ">site</a>
+    </p2>
+</div>
+</div>
+</body>
+</html>

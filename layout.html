@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="layout.css">
+    <script src="js.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sizes and layouts</title>
+</head>
+<body>
+    <div class="mySidebar" id="sidebar">
+        
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="keycaps.html">keycaps</a></li>
+            <li><a href="switches.html">switches</a></li>
+            <li><a href="plate.html">plate</a></li>
+            <li><a href="pcb.html">pcb</a></li>
+            <li><a href="case.html">case</a></li>
+            <li><a href="layout.html">sizes and layouts</a></li>
+            <li><a href="resources.html">where to buy</a></li>
+        </ul>
+    </div>
+
+        <span id="menu" onclick="openNav()">menu</span>
+<div class="main">
+    <h3 id="h3">Sizes and Layouts</h3>
+    <p1 id="p2">Keyboards come in many different forms. You should choose the right ones based on your preferences and needs. Different sizes are usually referred to by their percentages. 
+    </p1>
+    <p1 id="p4">click on a percentage to view the layout
+    </p1>
+    <br>
+    <br>
+    <br>
+
+
+   
+    <button class="button" onclick="toggleVisibility('image6'); setActiveButton(this);">60%</button>
+    <button class="button" onclick="toggleVisibility('image5'); setActiveButton(this);">65%</button>
+    <button class="button" onclick="toggleVisibility('image4'); setActiveButton(this);">75%</button> 
+    <button class="button" onclick="toggleVisibility('image3'); setActiveButton(this);">80%</button>
+    <button class="button" onclick="toggleVisibility('image2'); setActiveButton(this);">96%</button>
+    <button class="button" onclick="toggleVisibility('image1'); setActiveButton(this);">100%</button>
+
+
+    <div class="image-container">
+        <img id="image1" src="images/100.png" alt="Image 1" style="visibility: hidden;">
+        <img id="image2" src="images/96.png" alt="Image 2" style="visibility: hidden;">
+        <img id="image3" src="images/80.png" alt="Image 3" style="visibility: hidden;">
+        <img id="image4" src="images/75.png" alt="Image 4" style="visibility: hidden;">
+        <img id="image5" src="images/65.png" alt="Image 5" style="visibility: hidden;">
+        <img id="image6" src="images/60.png" alt="Image 6" style="visibility: hidden;">
+       
+        
+    </div>
+<div class="description-container" style="visibility: hidden;">
+<p id="image1-description" class="description" style="visibility: hidden;">This is a full-sized keyboard complete with 104 keys, including the number pad and function keys. It has a lot of functions but is less portable than the rest because of all the space it takes. It’s well suited for use in the office.</p>
+<p id="image2-description" class="description" style="visibility: hidden;">This is a compact full-sized keyboard that is slightly smaller than the 100%. It has around 100 keys, removing some of the less-used keys and the unused space on the keyboard.  It still has most of the functions and is still suitable for office use and data entry.</p>
+<p id="image3-description" class="description" style="visibility: hidden;">This is a Tenkeyless (TKL) keyboard and has around 87 keys. It has everything in the 100%, sans the number pad. It’s still good for office use, and better for people who don’t need the number pad. </p>
+<p id="image4-description" class="description" style="visibility: hidden;">This is a compact Tenkeyless keyboard that has around 84 keys. This is the layout used for most laptops, and may be more familiar. The function keys are more compacted and there is no number pad. Some editing keys were removed. It’s much more portable than the previous sizes. It’s good for everyday use.</p>
+<p id="image5-description" class="description" style="visibility: hidden;">This is a compact keyboard that has around 68 keys. It lacks the number pad, the separate function keys, and some navigation keys like DEL. They are accessed through key combinations, which can be inconvenient for someone who needs to use them often. However, it’s very portable and good for someone who focuses more on the typing experience.</p>
+<p id="image6-description" class="description" style="visibility: hidden;">This is a mini keyboard with around 61 keys. It has no number pad, function keys, navigation keys, and arrow keys. It’s not suitable for gaming but can be good for someone who just needs a keyboard to type. </p>
+
+</div>
+
+<br>
+
+
+    <p1 id="p1">There are many more keyboard sizes and layouts available, like ergonomic split layouts and layouts that include a programmable knob.
+    </p1>
+    <br>
+    <br>
+    <p1 id="p2">For more detail about keyboard layouts, visit this <a href="https://www.keychron.com/blogs/news/keyboard-size-layout-buying-guide">site</a>
+    </p1>
+</div>
+</body>
+</html>
